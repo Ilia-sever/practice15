@@ -1,5 +1,5 @@
 <?php
-//на формат даты дд.мм.гггг
+//формат даты дд.мм.гггг
 function isdate ($d) {
 	if (gettype($d)<>"string") {return false;}
 	if (strlen($d)<>10) {return false;}
